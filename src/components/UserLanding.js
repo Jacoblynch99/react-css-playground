@@ -37,45 +37,19 @@ const UserLanding = (props) => {
                     item
                     style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
                 >
-                    1
+                    1 {/* Add css graphic here */}
                 </Grid>
                 <Grid
                     item
                     style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
                 >
-                    5
+                    4 {/* Add css graphic here */}
                 </Grid>
                 <Grid
                     item
                     style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
                 >
-                    9
-                </Grid>
-            </Grid>
-            <Grid
-                item
-                xs={3}
-                container
-                direction="column"
-                style={{ width: '25vw' }}
-            >
-                <Grid
-                    item
-                    style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
-                >
-                    2
-                </Grid>
-                <Grid
-                    item
-                    style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
-                >
-                    6
-                </Grid>
-                <Grid
-                    item
-                    style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
-                >
-                    10
+                    7 {/* Add css graphic here */}
                 </Grid>
             </Grid>
             <Grid
@@ -89,19 +63,45 @@ const UserLanding = (props) => {
                     item
                     style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
                 >
-                    3
+                    2 {/* Add css graphic here */}
                 </Grid>
                 <Grid
                     item
                     style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
                 >
-                    7
+                    5 {/* Add css graphic here */}
                 </Grid>
                 <Grid
                     item
                     style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
                 >
-                    11
+                    8 {/* Add css graphic here */}
+                </Grid>
+            </Grid>
+            <Grid
+                item
+                xs={3}
+                container
+                direction="column"
+                style={{ width: '25vw' }}
+            >
+                <Grid
+                    item
+                    style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
+                >
+                    3 {/* Add css graphic here */}
+                </Grid>
+                <Grid
+                    item
+                    style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
+                >
+                    6 {/* Add css graphic here */}
+                </Grid>
+                <Grid
+                    item
+                    style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
+                >
+                    9 {/* Add css graphic here */}
                 </Grid>
             </Grid>
         </Grid>
