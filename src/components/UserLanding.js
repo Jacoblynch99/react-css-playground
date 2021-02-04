@@ -47,10 +47,13 @@ const UserLanding = (props) => {
                             height: '250px',
                             borderStyle: 'solid',
                             margin: 5,
+                            display: 'flex',
+                            alignItems: 'flex-end',
+                            justifyContent: 'center',
                         }}
                     >
                         <div className={classes.ball}></div>
-                        {/* Orange bouncing ball */}
+                        {/* Green bouncing ball */}
                     </Grid>
                     <Grid
                         item
