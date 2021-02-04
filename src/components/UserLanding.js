@@ -16,95 +16,151 @@ import {
     Grid,
 } from '@material-ui/core'
 import React, { useState } from 'react'
+import useStyles from '../style'
 
 const UserLanding = (props) => {
+    const classes = useStyles()
+    console.log(classes)
     return (
-        <Grid
-            container
-            direction="row"
-            justify="center"
-            alignItems="center"
-            style={{ width: '100vw', height: '100vh' }}
-        >
+        <Container maxWidth="lg">
             <Grid
-                item
-                xs={3}
                 container
-                direction="column"
-                style={{ width: '25vw' }}
+                direction="row"
+                justify="center"
+                alignItems="center"
+                style={{
+                    justifyContent: 'center',
+                }}
             >
                 <Grid
                     item
-                    style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
+                    xs={4}
+                    container
+                    direction="column"
+                    justify="center"
+                    alignItems="center"
                 >
-                    1 {/* Add css graphic here */}
+                    <Grid
+                        item
+                        style={{
+                            width: '350px',
+                            height: '250px',
+                            borderStyle: 'solid',
+                            margin: 5,
+                        }}
+                    >
+                        <div className={classes.ball}></div>
+                        {/* Orange bouncing ball */}
+                    </Grid>
+                    <Grid
+                        item
+                        style={{
+                            width: '350px',
+                            height: '250px',
+                            borderStyle: 'solid',
+                            margin: 5,
+                        }}
+                    >
+                        4 {/* Add css graphic here */}
+                    </Grid>
+                    <Grid
+                        item
+                        style={{
+                            width: '350px',
+                            height: '250px',
+                            borderStyle: 'solid',
+                            margin: 5,
+                        }}
+                    >
+                        7 {/* Add css graphic here */}
+                    </Grid>
                 </Grid>
                 <Grid
                     item
-                    style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
+                    xs={4}
+                    container
+                    direction="column"
+                    justify="center"
+                    alignItems="center"
                 >
-                    4 {/* Add css graphic here */}
+                    <Grid
+                        item
+                        style={{
+                            width: '350px',
+                            height: '250px',
+                            borderStyle: 'solid',
+                            margin: 5,
+                        }}
+                    >
+                        2 {/* Add css graphic here */}
+                    </Grid>
+                    <Grid
+                        item
+                        style={{
+                            width: '350px',
+                            height: '250px',
+                            borderStyle: 'solid',
+                            margin: 5,
+                        }}
+                    >
+                        5 {/* Add css graphic here */}
+                    </Grid>
+                    <Grid
+                        item
+                        style={{
+                            width: '350px',
+                            height: '250px',
+                            borderStyle: 'solid',
+                            margin: 5,
+                        }}
+                    >
+                        8 {/* Add css graphic here */}
+                    </Grid>
                 </Grid>
                 <Grid
                     item
-                    style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
+                    xs={4}
+                    container
+                    direction="column"
+                    justify="center"
+                    alignItems="center"
                 >
-                    7 {/* Add css graphic here */}
+                    <Grid
+                        item
+                        style={{
+                            width: '350px',
+                            height: '250px',
+                            borderStyle: 'solid',
+                            margin: 5,
+                        }}
+                    >
+                        3 {/* Add css graphic here */}
+                    </Grid>
+                    <Grid
+                        item
+                        style={{
+                            width: '350px',
+                            height: '250px',
+                            borderStyle: 'solid',
+                            margin: 5,
+                        }}
+                    >
+                        6 {/* Add css graphic here */}
+                    </Grid>
+                    <Grid
+                        item
+                        style={{
+                            width: '350px',
+                            height: '250px',
+                            borderStyle: 'solid',
+                            margin: 5,
+                        }}
+                    >
+                        9 {/* Add css graphic here */}
+                    </Grid>
                 </Grid>
             </Grid>
-            <Grid
-                item
-                xs={3}
-                container
-                direction="column"
-                style={{ width: '25vw' }}
-            >
-                <Grid
-                    item
-                    style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
-                >
-                    2 {/* Add css graphic here */}
-                </Grid>
-                <Grid
-                    item
-                    style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
-                >
-                    5 {/* Add css graphic here */}
-                </Grid>
-                <Grid
-                    item
-                    style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
-                >
-                    8 {/* Add css graphic here */}
-                </Grid>
-            </Grid>
-            <Grid
-                item
-                xs={3}
-                container
-                direction="column"
-                style={{ width: '25vw' }}
-            >
-                <Grid
-                    item
-                    style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
-                >
-                    3 {/* Add css graphic here */}
-                </Grid>
-                <Grid
-                    item
-                    style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
-                >
-                    6 {/* Add css graphic here */}
-                </Grid>
-                <Grid
-                    item
-                    style={{ height: '40vh', borderStyle: 'solid', margin: 5 }}
-                >
-                    9 {/* Add css graphic here */}
-                </Grid>
-            </Grid>
-        </Grid>
+        </Container>
     )
 }
 
