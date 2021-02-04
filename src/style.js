@@ -6,7 +6,7 @@ const useStyles = makeStyles({
         height: '50px',
         backgroundColor: 'green',
         borderRadius: '50%',
-        animation: '$bounce .5s cubic-bezier(.5,1,.9,1)',
+        animation: '$bounce .5s cubic-bezier(.5,1,.8,1)',
         animationDirection: 'alternate',
         animationIterationCount: 'infinite',
     },
