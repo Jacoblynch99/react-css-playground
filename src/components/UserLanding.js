@@ -15,13 +15,19 @@ import {
     Container,
     Grid,
 } from '@material-ui/core'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import useStyles from '../style'
 
 const UserLanding = (props) => {
     const classes = useStyles()
     const [particles, setParticles] = useState('')
-    console.log(classes)
+
+    useEffect(() => {
+        populateParticles()
+    })
+
+    const populateParticles = () => {}
+
     return (
         <Container maxWidth="lg">
             <Grid
@@ -71,6 +77,13 @@ const UserLanding = (props) => {
                     >
                         {/* balls drifting up from a line */}
                         <div className={classes.line}>
+                            <div className={classes.particle}></div>
+                            <div className={classes.particle}></div>
+                            <div className={classes.particle}></div>
+                            <div className={classes.particle}></div>
+                            <div className={classes.particle}></div>
+                            <div className={classes.particle}></div>
+                            <div className={classes.particle}></div>
                             <div className={classes.particle}></div>
                         </div>
                     </Grid>
