@@ -20,6 +20,7 @@ import useStyles from '../style'
 
 const UserLanding = (props) => {
     const classes = useStyles()
+    const [particles, setParticles] = useState('')
     console.log(classes)
     return (
         <Container maxWidth="lg">
@@ -53,7 +54,7 @@ const UserLanding = (props) => {
                         }}
                     >
                         <div className={classes.ball}></div>
-                        {/* Green bouncing ball */}
+                        {/* Green bouncing ball, using pure css. Uses keyframes and animations to bounce up and down. */}
                     </Grid>
                     <Grid
                         item
@@ -62,9 +63,16 @@ const UserLanding = (props) => {
                             height: '250px',
                             borderStyle: 'solid',
                             margin: 5,
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
                         }}
+                        s
                     >
-                        4 {/* Add css graphic here */}
+                        {/* balls drifting up from a line */}
+                        <div className={classes.line}>
+                            <div className={classes.particle}></div>
+                        </div>
                     </Grid>
                     <Grid
                         item
