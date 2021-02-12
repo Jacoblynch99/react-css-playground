@@ -32,7 +32,7 @@ const useStyles = makeStyles({
         borderRadius: '50%',
         backgroundColor: 'blue',
         marginLeft: 5,
-        animation: '$float 5s',
+        animation: '$float 2s',
         animationDirection: 'normal',
         animationIterationCount: 'infinite',
     },
@@ -41,10 +41,10 @@ const useStyles = makeStyles({
             transform: 'translate3d(0, 0, 0)',
         },
         '4%': {
-            transform: 'translate3d(0, -4px, 0)',
+            transform: 'translate3d(2px, -4px, 0)',
         },
         '8%': {
-            transform: 'translate3d(0, -8px, 0)',
+            transform: 'translate3d(4px, -8px, 0)',
         },
         '12%': {
             transform: 'translate3d(0, -12px, 0)',
@@ -80,37 +80,37 @@ const useStyles = makeStyles({
             transform: 'translate3d(0, -52px, 0)',
         },
         '56%': {
-            transform: 'translate3d(0, 0, 0)',
+            transform: 'translate3d(0, -55px, 0)',
         },
         '60%': {
             transform: 'translate3d(20px,-60px, 0)',
         },
         '64%': {
-            transform: 'translate3d(0, 0, 0)',
+            transform: 'translate3d(0, -64px, 0)',
         },
         '68%': {
-            transform: 'translate3d(0, 0, 0)',
+            transform: 'translate3d(0, -68px, 0)',
         },
         '72%': {
-            transform: 'translate3d(0, 0, 0)',
+            transform: 'translate3d(0, -72px, 0)',
         },
         '76%': {
-            transform: 'translate3d(0, 0, 0)',
+            transform: 'translate3d(0, -76px, 0)',
         },
         '80%': {
             transform: 'translate3d(-20px, -80px, 0)',
         },
         '84%': {
-            transform: 'translate3d(0, 0, 0)',
+            transform: 'translate3d(0, -84px, 0)',
         },
         '88%': {
-            transform: 'translate3d(0, 0, 0)',
+            transform: 'translate3d(0, -88px, 0)',
         },
         '92%': {
-            transform: 'translate3d(0, 0, 0)',
+            transform: 'translate3d(0, -92px, 0)',
         },
         '96%': {
-            transform: 'translate3d(0, 0, 0)',
+            transform: 'translate3d(0, -96px, 0)',
         },
         '100%': {
             transform: 'translate3d(0, -100px, 0)',
