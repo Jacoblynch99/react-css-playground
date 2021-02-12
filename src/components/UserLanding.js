@@ -77,7 +77,10 @@ const UserLanding = (props) => {
                     >
                         {/* balls drifting up from a line */}
                         <div className={classes.line}>
-                            <div className={classes.particle}></div>
+                            <div
+                                className={classes.particle}
+                                style={{ animationDelay: '-.2s' }}
+                            ></div>
                             <div className={classes.particle}></div>
                             <div className={classes.particle}></div>
                             <div className={classes.particle}></div>
