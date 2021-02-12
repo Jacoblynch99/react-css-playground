@@ -79,15 +79,36 @@ const UserLanding = (props) => {
                         <div className={classes.line}>
                             <div
                                 className={classes.particle}
-                                style={{ animationDelay: '-.2s' }}
+                                style={{ animationDelay: '1.5s' }}
                             ></div>
-                            <div className={classes.particle}></div>
-                            <div className={classes.particle}></div>
-                            <div className={classes.particle}></div>
-                            <div className={classes.particle}></div>
-                            <div className={classes.particle}></div>
-                            <div className={classes.particle}></div>
-                            <div className={classes.particle}></div>
+                            <div
+                                className={classes.particle}
+                                style={{ animationDelay: '.2s' }}
+                            ></div>
+                            <div
+                                className={classes.particle}
+                                style={{ animationDelay: '-.4s' }}
+                            ></div>
+                            <div
+                                className={classes.particle}
+                                style={{ animationDelay: '.4s' }}
+                            ></div>
+                            <div
+                                className={classes.particle}
+                                style={{ animationDelay: '1s' }}
+                            ></div>
+                            <div
+                                className={classes.particle}
+                                style={{ animationDelay: '.35s' }}
+                            ></div>
+                            <div
+                                className={classes.particle}
+                                style={{ animationDelay: '1.2s' }}
+                            ></div>
+                            <div
+                                className={classes.particle}
+                                style={{ animationDelay: '.5s' }}
+                            ></div>
                         </div>
                     </Grid>
                     <Grid

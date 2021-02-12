@@ -40,6 +40,7 @@ const useStyles = makeStyles({
     '@keyframes float': {
         '0%': {
             transform: 'translate3d(0, 0, 0)',
+            opacity: 1,
         },
         '4%': {
             transform: 'translate3d(2px, -4px, 0)',
@@ -100,6 +101,8 @@ const useStyles = makeStyles({
         },
         '80%': {
             transform: 'translate3d(-4px, -80px, 0)',
+
+            opacity: 1,
         },
         '84%': {
             transform: 'translate3d(-6px, -84px, 0)',
@@ -115,6 +118,7 @@ const useStyles = makeStyles({
         },
         '100%': {
             transform: 'translate3d(2px, -100px, 0)',
+            opacity: 0,
         },
     },
 })
