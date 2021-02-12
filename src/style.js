@@ -34,13 +34,14 @@ const useStyles = makeStyles({
         backgroundColor: 'blue',
         marginLeft: 5,
         animation: '$float 2s',
-        animationDirection: 'normal',
+        animationDirection: 'reverse',
         animationIterationCount: 'infinite',
+        zIndex: -1,
     },
     '@keyframes float': {
         '0%': {
             transform: 'translate3d(0, 0, 0)',
-            opacity: 1,
+            opacity: 0,
         },
         '4%': {
             transform: 'translate3d(2px, -4px, 0)',
@@ -59,6 +60,7 @@ const useStyles = makeStyles({
         },
         '24%': {
             transform: 'translate3d(0, -24px, 0)',
+            opacity: 1,
         },
         '28%': {
             transform: 'translate3d(-2px, -28px, 0)',
