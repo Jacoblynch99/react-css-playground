@@ -47,28 +47,28 @@ const useStyles = makeStyles({
             transform: 'translate3d(4px, -8px, 0)',
         },
         '12%': {
-            transform: 'translate3d(0, -12px, 0)',
+            transform: 'translate3d(6px, -12px, 0)',
         },
         '16%': {
-            transform: 'translate3d(0, -16px, 0)',
+            transform: 'translate3d(4px, -16px, 0)',
         },
         '20%': {
-            transform: 'translate3d(20px, -20px, 0)',
+            transform: 'translate3d(2px, -20px, 0)',
         },
         '24%': {
             transform: 'translate3d(0, -24px, 0)',
         },
         '28%': {
-            transform: 'translate3d(0, -28px, 0)',
+            transform: 'translate3d(-2px, -28px, 0)',
         },
         '32%': {
-            transform: 'translate3d(0, -32px, 0)',
+            transform: 'translate3d(-4px, -32px, 0)',
         },
         '36%': {
-            transform: 'translate3d(0, -36px, 0)',
+            transform: 'translate3d(-6px, -36px, 0)',
         },
         '40%': {
-            transform: 'translate3d(-20px, -40px, 0)',
+            transform: 'translate3d(-4px, -40px, 0)',
         },
         '44%': {
             transform: 'translate3d(0, -44px, 0)',
