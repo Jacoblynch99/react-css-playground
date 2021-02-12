@@ -72,10 +72,11 @@ const UserLanding = (props) => {
                             display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center',
+                            backgroundColor: 'gray',
                         }}
                         s
                     >
-                        {/* balls drifting up from a line */}
+                        {/* snow drifting down */}
                         <div className={classes.line}>
                             <div
                                 className={classes.particle}

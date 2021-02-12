@@ -31,12 +31,12 @@ const useStyles = makeStyles({
         width: '5px',
         height: '5px',
         borderRadius: '50%',
-        backgroundColor: 'blue',
+        backgroundColor: 'white',
         marginLeft: 5,
         animation: '$float 2s',
         animationDirection: 'reverse',
         animationIterationCount: 'infinite',
-        zIndex: -1,
+        opacity: 0,
     },
     '@keyframes float': {
         '0%': {
