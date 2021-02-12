@@ -32,7 +32,7 @@ const useStyles = makeStyles({
         borderRadius: '50%',
         backgroundColor: 'blue',
         marginLeft: 5,
-        animation: '$float 5s',
+        animation: '$float 10s',
         animationDirection: 'normal',
         animationIterationCount: 'infinite',
     },
@@ -41,16 +41,16 @@ const useStyles = makeStyles({
             transform: 'translate3d(0, 0, 0)',
         },
         '20%': {
-            transform: 'translate3d(20px, -100px, 0)',
+            transform: 'translate3d(20px, -20px, 0)',
         },
         '40%': {
-            transform: 'translate3d(-20px, -100px, 0)',
+            transform: 'translate3d(-20px, -40px, 0)',
         },
         '60%': {
-            transform: 'translate3d(20px,-100px, 0)',
+            transform: 'translate3d(20px,-60px, 0)',
         },
         '80%': {
-            transform: 'translate3d(-20px, -100px, 0)',
+            transform: 'translate3d(-20px, -80px, 0)',
         },
         '100%': {
             transform: 'translate3d(0, -100px, 0)',
