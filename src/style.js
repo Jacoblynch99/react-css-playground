@@ -19,6 +19,7 @@ const useStyles = makeStyles({
             transform: 'translate3d(0, -150px, 0)',
         },
     },
+    // origin point for snow but looks like ground
     line: {
         width: '100px',
         height: '10px',
@@ -27,6 +28,7 @@ const useStyles = makeStyles({
         flexDirection: 'row',
         justifyContent: 'center',
     },
+    // snow flakes
     particle: {
         width: '5px',
         height: '5px',
@@ -38,6 +40,7 @@ const useStyles = makeStyles({
         animationIterationCount: 'infinite',
         opacity: 0,
     },
+    // creating the effect of snow with css, added opacity to the last 20% and first 20% to give it a smooth animation
     '@keyframes float': {
         '0%': {
             transform: 'translate3d(0, 0, 0)',
