@@ -41,8 +41,8 @@ const useStyles = makeStyles({
         opacity: 0,
     },
     sunOrb: {
-        height: '30px',
-        width: '30px',
+        height: '100px',
+        width: '100px',
         borderRadius: '50%',
         backgroundColor: 'yellow',
     },
