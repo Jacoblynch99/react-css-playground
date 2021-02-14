@@ -121,7 +121,7 @@ const UserLanding = (props) => {
                             margin: 5,
                         }}
                     >
-                        7 {/* Add css graphic here */}
+                        <div className={classes.sunOrb}></div>
                     </Grid>
                 </Grid>
                 <Grid

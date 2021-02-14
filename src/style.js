@@ -40,6 +40,12 @@ const useStyles = makeStyles({
         animationIterationCount: 'infinite',
         opacity: 0,
     },
+    sunOrb: {
+        height: '30px',
+        width: '30px',
+        borderRadius: '50%',
+        backgroundColor: 'yellow',
+    },
     // creating the effect of snow with css, added opacity to the last 20% and first 20% to give it a smooth animation
     '@keyframes float': {
         '0%': {
