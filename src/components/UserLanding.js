@@ -119,6 +119,9 @@ const UserLanding = (props) => {
                             height: '250px',
                             borderStyle: 'solid',
                             margin: 5,
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
                         }}
                     >
                         <div className={classes.sunOrb}></div>
