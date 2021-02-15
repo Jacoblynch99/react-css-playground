@@ -146,14 +146,16 @@ const UserLanding = (props) => {
                             margin: 5,
                         }}
                     >
-                        <div className={classes.connectingDots}></div>
-                        <div className={classes.connectingDots}></div>
-                        <div className={classes.connectingDots}></div>
-                        <div className={classes.connectingDots}></div>
-                        <div className={classes.connectingDots}></div>
-                        <div className={classes.connectingDots}></div>
-                        <div className={classes.connectingDots}></div>
-                        <div className={classes.connectingDots}></div>
+                        <div className={classes.containerDots}>
+                            <div className={classes.connectingDots}></div>
+                            <div className={classes.connectingDots}></div>
+                            <div className={classes.connectingDots}></div>
+                            <div className={classes.connectingDots}></div>
+                            <div className={classes.connectingDots}></div>
+                            <div className={classes.connectingDots}></div>
+                            <div className={classes.connectingDots}></div>
+                            <div className={classes.connectingDots}></div>
+                        </div>
                     </Grid>
                     <Grid
                         item

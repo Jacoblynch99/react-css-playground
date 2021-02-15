@@ -52,6 +52,10 @@ const useStyles = makeStyles({
         borderRadius: '50%',
         backgroundColor: 'black',
     },
+    containerDots: {
+        width: '350px',
+        height: '250px',
+    },
     // creating the effect of snow with css, added opacity to the last 20% and first 20% to give it a smooth animation
     '@keyframes float': {
         '0%': {
