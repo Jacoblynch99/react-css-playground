@@ -46,7 +46,7 @@ const useStyles = makeStyles({
         borderRadius: '50%',
         backgroundColor: 'yellow',
     },
-    connnectingDots: {
+    connectingDots: {
         width: '5px',
         height: '5px',
         borderRadius: '50%',

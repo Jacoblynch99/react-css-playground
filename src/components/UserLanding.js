@@ -112,6 +112,7 @@ const UserLanding = (props) => {
                             ></div>
                         </div>
                     </Grid>
+                    {/* convincing sun graphic? */}
                     <Grid
                         item
                         style={{
@@ -135,6 +136,7 @@ const UserLanding = (props) => {
                     justify="center"
                     alignItems="center"
                 >
+                    {/* Particles that connect a line when they get close */}
                     <Grid
                         item
                         style={{
@@ -144,7 +146,14 @@ const UserLanding = (props) => {
                             margin: 5,
                         }}
                     >
-                        2 {/* Add css graphic here */}
+                        <div className={classes.connectingDots}></div>
+                        <div className={classes.connectingDots}></div>
+                        <div className={classes.connectingDots}></div>
+                        <div className={classes.connectingDots}></div>
+                        <div className={classes.connectingDots}></div>
+                        <div className={classes.connectingDots}></div>
+                        <div className={classes.connectingDots}></div>
+                        <div className={classes.connectingDots}></div>
                     </Grid>
                     <Grid
                         item
