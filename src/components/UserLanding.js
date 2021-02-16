@@ -168,9 +168,17 @@ const UserLanding = (props) => {
                     >
                         {/* MEME */}
                         <div>
-                            <div>Rose's are red,</div>
-                            <div>Violet's are blue,</div>
-                            <div>Uncaught SyntaxError: at line 22</div>
+                            <div className={classes.text}>
+                                Rose's are
+                                <span className={classes.roses}> red</span>,
+                            </div>
+                            <div className={classes.text}>
+                                Violet's are
+                                <span className={classes.violets}> blue</span>,
+                            </div>
+                            <div className={classes.punchline}>
+                                Uncaught SyntaxError at line 22
+                            </div>
                         </div>
                     </Grid>
                     <Grid

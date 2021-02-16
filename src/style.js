@@ -1,5 +1,4 @@
 import { makeStyles } from '@material-ui/core/styles'
-import { Children } from 'react'
 
 const useStyles = makeStyles({
     ball: {
@@ -58,6 +57,19 @@ const useStyles = makeStyles({
         width: '350px',
         height: '250px',
     },
+    text: {
+        color: 'yellow',
+    },
+    roses: {
+        color: 'red',
+    },
+    violets: {
+        color: 'blue',
+    },
+    punchline: {
+        color: 'green',
+    },
+
     // creating the effect of snow with css, added opacity to the last 20% and first 20% to give it a smooth animation
     '@keyframes float': {
         '0%': {
