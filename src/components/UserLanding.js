@@ -166,7 +166,12 @@ const UserLanding = (props) => {
                             margin: 5,
                         }}
                     >
-                        5 {/* Add css graphic here */}
+                        {/* MEME */}
+                        <div>
+                            <div>Rose's are red,</div>
+                            <div>Violet's are blue,</div>
+                            <div>Uncaught SyntaxError: at line 22</div>
+                        </div>
                     </Grid>
                     <Grid
                         item
