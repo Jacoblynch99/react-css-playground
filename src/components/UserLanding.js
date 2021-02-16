@@ -164,12 +164,16 @@ const UserLanding = (props) => {
                             height: '250px',
                             borderStyle: 'solid',
                             margin: 5,
+                            backgroundColor: 'black',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
                         }}
                     >
                         {/* MEME */}
                         <div>
                             <div className={classes.text}>
-                                Rose's are
+                                Roses are
                                 <span className={classes.roses}> red</span>,
                             </div>
                             <div className={classes.text}>
@@ -177,7 +181,11 @@ const UserLanding = (props) => {
                                 <span className={classes.violets}> blue</span>,
                             </div>
                             <div className={classes.punchline}>
-                                Uncaught SyntaxError at line 22
+                                Uncaught SyntaxError:
+                                <br />
+                                <span className={classes.errorPart2}>
+                                    at line 2
+                                </span>
                             </div>
                         </div>
                     </Grid>

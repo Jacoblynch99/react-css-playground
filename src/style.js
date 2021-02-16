@@ -57,19 +57,33 @@ const useStyles = makeStyles({
         width: '350px',
         height: '250px',
     },
+    // MEME CSS settings
     text: {
-        color: 'yellow',
+        color: 'white',
+        fontWeight: 500,
+        fontSize: 30,
+        fontFamily: 'Times New Roman, serif',
+        textAlign: 'center',
     },
     roses: {
-        color: 'red',
+        color: '#9B1919',
+        fontFamily: 'Brush Script MT, cursive',
+        fontWeight: 500,
     },
     violets: {
-        color: 'blue',
+        color: '#039DC3',
+        fontWeight: 500,
     },
     punchline: {
-        color: 'green',
+        color: '#FF4343',
+        fontWeight: 200,
+        fontSize: 20,
+        textAlign: 'left',
+        marginLeft: 10,
     },
-
+    errorPart2: {
+        marginLeft: 30,
+    },
     // creating the effect of snow with css, added opacity to the last 20% and first 20% to give it a smooth animation
     '@keyframes float': {
         '0%': {
