@@ -46,12 +46,14 @@ const useStyles = makeStyles({
         borderRadius: '50%',
         backgroundColor: 'yellow',
     },
+    // these dots will bounce around the given area and connect a line when they get close to another dot
     connectingDots: {
         width: '5px',
         height: '5px',
         borderRadius: '50%',
         backgroundColor: 'black',
     },
+    // this will act like a border for the bounce dots
     containerDots: {
         width: '350px',
         height: '250px',
