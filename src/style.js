@@ -65,15 +65,18 @@ const useStyles = makeStyles({
         fontFamily: 'Times New Roman, serif',
         textAlign: 'center',
     },
+    // settings for the word roses
     roses: {
         color: '#9B1919',
         fontFamily: 'Brush Script MT, cursive',
         fontWeight: 500,
     },
+    // settings for the word violets
     violets: {
         color: '#039DC3',
         fontWeight: 500,
     },
+    // setting for the last sentence
     punchline: {
         color: '#FF4343',
         fontWeight: 200,
