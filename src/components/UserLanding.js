@@ -76,7 +76,7 @@ const UserLanding = (props) => {
                         }}
                         s
                     >
-                        {/* snow drifting down */}
+                        {/* snow drifting down, it all originates from the line div */}
                         <div className={classes.line}>
                             <div
                                 className={classes.particle}
