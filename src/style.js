@@ -32,7 +32,7 @@ const useStyles = makeStyles({
         width: '5px',
         height: '5px',
         borderRadius: '50%',
-        backgroundColor: 'white',
+        backgroundColor: 'green',
         marginLeft: 5,
         animation: '$float 2s',
         animationDirection: 'reverse',
@@ -43,7 +43,7 @@ const useStyles = makeStyles({
         height: '100px',
         width: '100px',
         borderRadius: '50%',
-        backgroundColor: 'yellow',
+        backgroundColor: 'orange',
     },
     // these dots will bounce around the given area and connect a line when they get close to another dot
     connectingDots: {
