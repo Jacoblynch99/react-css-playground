@@ -58,6 +58,7 @@ const useStyles = makeStyles({
         height: '250px',
     },
     // MEME CSS settings
+    // TODO Add animation to text when hovered over
     text: {
         color: 'white',
         fontWeight: 500,
@@ -65,13 +66,13 @@ const useStyles = makeStyles({
         fontFamily: 'Times New Roman, serif',
         textAlign: 'center',
     },
-    // settings for the word roses
+    // settings for the word roses: color and font weight
     roses: {
         color: '#9B1919',
         fontFamily: 'Brush Script MT, cursive',
         fontWeight: 500,
     },
-    // settings for the word violets
+    // settings for the word violets: color and font weight
     violets: {
         color: '#039DC3',
         fontWeight: 500,
