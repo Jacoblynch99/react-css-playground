@@ -112,7 +112,7 @@ const UserLanding = (props) => {
                             ></div>
                         </div>
                     </Grid>
-                    {/* convincing sun graphic? */}
+                    {/* convincing sun graphic, focus on making the sun particles around it first*/}
                     <Grid
                         item
                         style={{
@@ -198,7 +198,7 @@ const UserLanding = (props) => {
                             margin: 5,
                         }}
                     >
-                        8 {/* Add css graphic here */}
+                        8 {/* create a div that react to user interaction*/}
                     </Grid>
                 </Grid>
                 <Grid
