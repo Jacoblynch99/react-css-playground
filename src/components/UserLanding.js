@@ -198,7 +198,8 @@ const UserLanding = (props) => {
                             margin: 5,
                         }}
                     >
-                        8 {/* create a div that react to user interaction*/}
+                        {/* create a div that react to user interaction*/}
+                        <div>onclick here</div>
                     </Grid>
                 </Grid>
                 <Grid
