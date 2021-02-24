@@ -27,7 +27,7 @@ const useStyles = makeStyles({
         flexDirection: 'row',
         justifyContent: 'center',
     },
-    // snow flakes
+    // snow flakes, which is just composes of circles that are colored white
     particle: {
         width: '5px',
         height: '5px',
