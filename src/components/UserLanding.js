@@ -125,7 +125,9 @@ const UserLanding = (props) => {
                             justifyContent: 'center',
                         }}
                     >
-                        <div className={classes.sunOrb}></div>
+                        <div className={classes.sunOrb}>
+                            <div>SUN RAYS</div>
+                        </div>
                     </Grid>
                 </Grid>
                 <Grid
