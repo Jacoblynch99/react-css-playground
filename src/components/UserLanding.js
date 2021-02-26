@@ -18,6 +18,8 @@ import {
 import React, { useState, useEffect } from 'react'
 import useStyles from '../style'
 
+// GOAL: TRY AND CREATE UNIQUE AND FUN ANIMATIONS.
+
 const UserLanding = (props) => {
     const classes = useStyles()
     const [particles, setParticles] = useState('')
