@@ -19,7 +19,7 @@ import React, { useState, useEffect } from 'react'
 import useStyles from '../style'
 
 // GOAL: TRY AND CREATE UNIQUE AND FUN ANIMATIONS.
-// AIM FOR NINE
+// AIM FOR NINE UNIQUE ANOMATIONS
 
 const UserLanding = (props) => {
     const classes = useStyles()
