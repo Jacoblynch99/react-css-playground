@@ -10,6 +10,7 @@ const useStyles = makeStyles({
         animationDirection: 'alternate',
         animationIterationCount: 'infinite',
     },
+    // keyframes for ball bouncing
     '@keyframes bounce': {
         from: {
             transform: 'translate3d(0, 0, 0)',
@@ -18,7 +19,7 @@ const useStyles = makeStyles({
             transform: 'translate3d(0, -150px, 0)',
         },
     },
-    // origin point for snow but looks like ground
+    // origin point for snow, but it looks like ground
     line: {
         width: '100px',
         height: '10px',
