@@ -1,5 +1,7 @@
 import axios from 'axios'
 
+// change routes to no
+
 export const getBusinesses = () => {
     return function (dispatch) {
         axios
