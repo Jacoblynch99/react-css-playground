@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-// change routes to no
+// remove excess routes from here and use the space to store css
 
 export const getBusinesses = () => {
     return function (dispatch) {
