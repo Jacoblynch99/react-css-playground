@@ -1,5 +1,7 @@
 import { combineReducers } from 'redux'
 
+// clear reducers and make room for css trick.
+
 const businesses = (state = [], action) => {
     switch (action.type) {
         case 'GET_BUSINESSES':
